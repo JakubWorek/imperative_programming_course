@@ -1,2 +1,0 @@
-#include <stdio.h> 
-void fibonacci(int N){ int prev = 0; int cur = 1; int next = cur + prev; int i=N-2; printf("%d\n", prev); printf("%d\n", cur); do{ printf("%d\n", next); prev = cur; cur = next; next = cur + prev; i--; } while(i>0); } int main(int argc, char **argv){ printf("Podaj ile wyrazow wypisac: "); int n; scanf("%d",&n); fibonacci(n); return 0; }
